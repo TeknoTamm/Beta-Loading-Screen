@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Studio loading screen</title>
+
+    <link rel="stylesheet" href="style/main.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head>
+
+<body>
+    <!-- <iframe id="ytplayer" class="bg" src="https://www.youtube.com/embed/DM4hr_epyAc?autoplay=1&disablekb=1&enablejsapi=1&loop=1&mute=1" frameborder="no" allow="autoplay" ></iframe> -->
+
+    <div class="container">
+
+
+        <div>
+
+
+            <div class="top-bar">
+                <img src="/html/public/images/rplogo.png" alt="">
+
+                <div class="rptext">
+                    <h2 data-language="server_Name"></h2>
+                </div>
+
+
+            </div>
+            <div id="wrapper">
+
+                <div class="text-area">
+
+                    <span class="header-text" >
+                        <p data-language="header_Text"></p>
+                        
+                        <span data-language="server_Name_Header" class="text-style-1"><p data-language="server_Name_Header"></p></span>
+                        RP
+
+
+                    </span>
+
+
+                    <span data-language="info_Message" class="info-message">
+                       
+                    </span>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="bottom-button">
+
+                <div class="button1">
+                    <button type="button" class="buton" onclick="myFunction()" onmouseout="outFunc()"><span
+                            class="tooltiptext" id="myTooltip"><p data-language="Youtube"></p></span></button>
+                    <!-- <p><span class="tooltiptext" id="myTooltip"></span></p> -->
+
+                </div>
+
+                <div class="button2">
+                    <button type="button" class="buton" onclick="myFunction2()" onmouseout="outFunc2()"><span
+                            class="tooltiptext2" id="myTooltip2"><p data-language="İnstagram"></p></span></button>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>
